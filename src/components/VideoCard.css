@@ -1,0 +1,32 @@
+.video-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+  
+.tags {
+    display: flex;
+    justify-content: center;
+  }
+  
+.tag {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin: 0 4px;
+    font-size: 14px;
+  }
+
+.video-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
